@@ -1,0 +1,109 @@
+body {
+  font-family: 'Noto Sans' 'Japanese';
+  font-size: 14px;
+  background: white;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+header {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.navi-ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+
+  li {
+    display: block;
+    width: 240px;
+    height: 40px;
+    box-sizing: border-box;
+    line-height: 2;
+    text-align: center;
+    color: white;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+    }
+  }
+}
+.top {
+  background-color: #ed4b39;
+  &:hover {
+    background-color: #bd2b19;
+  }
+}
+.about {
+  background-color: #3c7de1;
+  &:hover {
+    background-color: #1c5db1;
+  }
+}
+.skill {
+  background-color: #ee4056;
+  &:hover {
+    background-color: #ce2036;
+  }
+}
+.works {
+    background-color: #efb53c;
+  &:hover {
+    background-color: #df951c;
+  }
+}
+.contact {
+  background-color: #6cc655;
+  &:hover {
+  background-color: #4ca635;
+  }
+}
+.transition{
+  transition-property: all;
+  transition-duration:  200ms;
+}
+
+.is-center{
+    text-align: center;
+}
+.top-title {
+  margin: 300px 0;
+  text-align: center;
+  font-size: 2.5rem;
+  border-bottom: 1px solid grey;
+}
+.about-title{
+  text-align: center;
+  color: #3c7dd1
+}
+.skill-title {
+  color: #ee4056
+}
+.works-title {
+  color: #ffb53c;
+}
+.contact-title {
+  color: #6cc655;
+}
+
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+@import 'App';
+@import 'About';
+@import 'Skill';
+@import 'Works';
+@import 'Contact';

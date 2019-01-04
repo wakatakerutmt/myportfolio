@@ -1,0 +1,26 @@
+
+.table-wrapper {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  border: 1px solid rgba(200,200,200,1);
+  border-radius: 40px;
+
+  table {
+    margin: 30px auto;
+    display: inline-block;
+  }
+  td{
+    font-size: 1rem;
+    text-align: left;
+    padding: 10px 15px;
+  }
+}
+
+.left-td {
+  width:110px;
+}
+
+.right-td {
+  width:300px;
+}
