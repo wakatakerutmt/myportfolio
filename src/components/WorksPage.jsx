@@ -19,7 +19,7 @@ class WorksPage extends Component {
 
       <div className="card">
         <div className="left-component">
-          <img src="img/portfolio.jpg" className="img-portfolio"/>
+          <img src="img/portfolio.JPG" className="img-portfolio"/>
         </div>
         <div className="right-component">
           <h2>My Portfolio(Web)</h2>
