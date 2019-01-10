@@ -60,7 +60,7 @@ class WorksPage extends Component {
           <img src="img/nothing2.jpg" className="img-nothing"/>
         </div>
         <div className="right-component">
-          <h2>Nothing To Do(Web)</h2>
+          <h2>Nothing To Do(Web) <a href="https://nothing-to-do.herokuapp.com/">β版リンク</a></h2>
           <p>暇なとき友人を誘いたいけど、友人が暇かどうかいちいち聞かないと分からない...そんなめんどくささを解消。このアプリを見れば暇な友人が一目瞭然。暇してる友人を即誘って遊べるアプリ</p>
           <ul className="tool-list">
             <li>使用した言語・技術・ツールなど</li>
