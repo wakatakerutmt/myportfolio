@@ -156,24 +156,6 @@ class WorksPage extends Component {
 
       <div className="card">
         <div className="left-component">
-          <img src="img/wantedly_dummy01.jpg" className="img-wantedly"/>
-          <img src="img/wantedly_dummy02.jpg" className="img-wantedly" />
-        </div>
-        <div className="right-component">
-          <h2>Wantedlyサイトの模倣(Web)</h2>
-          <p>wantedlyのサイトをそっくり真似て作ったもの。作った部分はTOPページとログイン、サインインページとユーザーのプロフィールページです。</p>
-          <ul className="tool-list">
-            <li>使用した言語・技術・ツールなど</li>
-            <li>・PHP, Laravel</li>
-            <li>・MySQL</li>
-            <li>・HTML,CSS,JavaScript(jQuery)</li>
-          </ul>
-          <p>機能詳細:ログイン、サインイン機能、ユーザーの16項目のプロフィール情報のCRUD処理(本家サイトにあるものと全く同じ内容)。プロフィール項目のCRUD処理の全てをAjax化。更新処理後にはサクセスorエラーメッセージを動的に表示。画像投稿処理など。</p>
-        </div>
-      </div>
-
-      <div className="card">
-        <div className="left-component">
           <img src="img/hotel-search.jpg" className="img-hotel-search"/>
         </div>
         <div className="right-component">

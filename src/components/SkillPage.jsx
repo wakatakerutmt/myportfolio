@@ -12,7 +12,7 @@ const SkillPage = () =>  (
             <tbody>
               <tr>
                 <td className="skill-left-td">C/C++</td>
-                <td className="skill-middle-td">3年/3か月</td>
+                <td className="skill-middle-td">3年/4か月</td>
                 <td className="skill-right-td">大学で使用しています。競技プログラミングの問題を解くのにも使用しています。</td>
               </tr>
               <tr>
@@ -22,32 +22,32 @@ const SkillPage = () =>  (
               </tr>
               <tr>
                 <td className="skill-left-td">PHP<br/>(Laravel)<br/>(ZendFramework)</td>
-                <td className="skill-middle-td">1年</td>
+                <td className="skill-middle-td">1年1か月</td>
                 <td className="skill-right-td">2社のインターンで使用しています。個人開発でも使用しています。</td>
               </tr>
               <tr>
                 <td className="skill-left-td">Ruby<br/>(Ruby on Rails)</td>
-                <td className="skill-middle-td">1年</td>
+                <td className="skill-middle-td">1年1か月</td>
                 <td className="skill-right-td">閲覧ランキング機能付きのブログアプリを作りました。現在はwebアプリ開発で利用しています。</td>
               </tr>
               <tr>
                 <td className="skill-left-td">Python<br/>(Django)</td>
-                <td className="skill-middle-td">5か月</td>
+                <td className="skill-middle-td">6か月</td>
                 <td className="skill-right-td">機械学習の勉強と、競技プログラミングの勉強、webアプリ開発で使用しています。</td>
               </tr>
               <tr>
                 <td className="skill-left-td">Kotlin</td>
-                <td className="skill-middle-td">4か月</td>
+                <td className="skill-middle-td">5か月</td>
                 <td className="skill-right-td">Androidアプリ開発で使用しています。</td>
               </tr>
               <tr>
                 <td className="skill-left-td">JavaScript<br/>(jQuery,React.js<br/> Node.js)</td>
-                <td className="skill-middle-td">1年</td>
+                <td className="skill-middle-td">1年1か月</td>
                 <td className="skill-right-td">webアプリ開発で使用しています。</td>
               </tr>
               <tr>
                 <td className="skill-left-td">HTML5/CSS3<br/>(Sass)</td>
-                <td className="skill-middle-td">1年</td>
+                <td className="skill-middle-td">1年1か月</td>
                 <td className="skill-right-td">インターンとwebアプリ開発で使用しています。</td>
               </tr>
             </tbody>
@@ -77,6 +77,7 @@ const SkillPage = () =>  (
             <tbody>
               <tr><td className="skill-left-td">Webpack</td><td className="skill-right-td">個人開発時に使用しています。</td></tr>
               <tr><td className="skill-left-td">GitHub</td><td className="skill-right-td">友人との開発時に使用しています。</td></tr>
+              <tr><td className="skill-left-td">GitLab</td><td className="skill-right-td">インターン先で使用しています。</td></tr>
               <tr><td className="skill-left-td">Subversion</td><td className="skill-right-td">インターン先で使用しています。</td></tr>
               <tr><td className="skill-left-td">Atom</td><td className="skill-right-td">普段使用しているテキストエディタです。</td></tr>
               <tr><td className="skill-left-td">Vim</td><td className="skill-right-td">サーバー上のファイルを編集するときや、普段のファイル編集でもたまに使います。</td></tr>

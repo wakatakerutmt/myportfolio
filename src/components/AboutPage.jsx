@@ -26,8 +26,8 @@ const AboutPage = () =>  (
         <div className="table-wrapper">
           <table>
             <tbody>
-              <tr><td>Donuts Co. Ltd.</td><td>主にサーバーサイドでのゲームの機能拡張・追加と<br/>フロントエンドへの反映。他問い合わせ対応(データベースの調査)・本番リリース対応等</td><td>Since 2018/02/01~</td></tr>
-              <tr><td>株式会社80&Company</td><td>webサイト制作。フルリモート勤務</td><td>Since 2018/12/01~</td></tr>
+              <tr><td>Donuts Co. Ltd.</td><td>主にサーバーサイドでのゲームの機能拡張・追加と<br/>フロントエンドへの反映。他問い合わせ対応(データベースの調査)・本番リリース対応等<br/>PHP,ZendFramework,MySQL,Trello,Subversion,Slack</td><td>Since 2018/02/01~</td></tr>
+              <tr><td>株式会社80&Company</td><td>webサイト制作のフロントエンドと設計、バックエンドなど。フルリモート勤務。<br/>PHP,Laravel,MySQL,Backlog,GitLab,Slack</td><td>Since 2018/12/01~</td></tr>
             </tbody>
           </table>
         </div>
