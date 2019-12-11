@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const SkillPage = () => (
   <div className="container">
@@ -12,48 +12,74 @@ const SkillPage = () => (
           <tbody>
             <tr>
               <td className="skill-left-td">C/C++</td>
-              <td className="skill-middle-td">3年/4か月</td>
-              <td className="skill-right-td">大学で使用しています。競技プログラミングの問題を解くのにも使用しています。</td>
+              <td className="skill-right-td">大学で使用していました。</td>
             </tr>
             <tr>
               <td className="skill-left-td">Java</td>
-              <td className="skill-middle-td">7か月</td>
-              <td className="skill-right-td">大学で使用していました。Androidアプリ作りでも使用しました。</td>
+              <td className="skill-right-td">
+                大学で使用していました。Androidアプリ作りでも使用しました。
+              </td>
             </tr>
             <tr>
-              <td className="skill-left-td">PHP<br />(Laravel)<br />(ZendFramework)</td>
-              <td className="skill-middle-td">1年1か月</td>
-              <td className="skill-right-td">2社のインターンで使用しています。個人開発でも使用しています。</td>
+              <td className="skill-left-td">
+                PHP
+                <br />
+                (Laravel)
+                <br />
+                (ZendFrameworkなど)
+              </td>
+              <td className="skill-right-td">
+                業務で使用しています。個人開発でも使用しました。
+              </td>
             </tr>
             <tr>
-              <td className="skill-left-td">Ruby<br />(Ruby on Rails)</td>
-              <td className="skill-middle-td">1年1か月</td>
-              <td className="skill-right-td">閲覧ランキング機能付きのブログアプリを作りました。現在はwebアプリ開発で利用しています。</td>
+              <td className="skill-left-td">
+                Ruby
+                <br />
+                (Ruby on Rails)
+              </td>
+              <td className="skill-right-td">友人との開発で利用しました。</td>
             </tr>
             <tr>
-              <td className="skill-left-td">Python<br />(Django)</td>
-              <td className="skill-middle-td">6か月</td>
-              <td className="skill-right-td">機械学習の勉強と、競技プログラミングの勉強、webアプリ開発で使用しています。</td>
+              <td className="skill-left-td">
+                Python
+                <br />
+                (Django) (Flask)
+              </td>
+              <td className="skill-right-td">
+                機械学習やデータ解析(研究,
+                Kaggle)とwebアプリの開発で使用しています。
+              </td>
             </tr>
             <tr>
               <td className="skill-left-td">Kotlin</td>
-              <td className="skill-middle-td">5か月</td>
-              <td className="skill-right-td">Androidアプリ開発で使用しています。</td>
+              <td className="skill-right-td">
+                Androidアプリ開発で使用していました。
+              </td>
             </tr>
             <tr>
-              <td className="skill-left-td">JavaScript<br />(jQuery,React.js<br /> Node.js)</td>
-              <td className="skill-middle-td">1年1か月</td>
-              <td className="skill-right-td">webアプリ開発で使用しています。</td>
+              <td className="skill-left-td">
+                JavaScript
+                <br />
+                (jQuery,React.js,Vue.js)
+              </td>
+              <td className="skill-right-td">
+                業務では素のJavaScriptとjQueryで、React、Vueは個人開発で少し使用しています。
+              </td>
             </tr>
             <tr>
-              <td className="skill-left-td">HTML5/CSS3<br />(Sass)</td>
-              <td className="skill-middle-td">1年1か月</td>
-              <td className="skill-right-td">インターンとwebアプリ開発で使用しています。</td>
+              <td className="skill-left-td">
+                HTML5/CSS3
+                <br />
+                (Sass)
+              </td>
+              <td className="skill-right-td">
+                常に使用しています。基本Sassを使っています。
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
-
 
       <div className="skill-table-wrapper">
         <table>
@@ -61,10 +87,30 @@ const SkillPage = () => (
             <th colSpan="3">Database</th>
           </thead>
           <tbody>
-            <tr><td className="skill-left-td">MySQL</td><td className="skill-right-td">インターンと個人開発時に使用しています。</td></tr>
-            <tr><td className="skill-left-td">PostgreSQL</td><td className="skill-middle-td">友人との開発時で使用しています。</td></tr>
-            <tr><td className="skill-left-td">SQLite</td><td className="skill-middle-td">友人との開発時で使用しています。</td></tr>
-            <tr><td className="skill-left-td">Realm</td><td className="skill-middle-td">Androidアプリ開発時で使用しています。</td></tr>
+            <tr>
+              <td className="skill-left-td">MySQL</td>
+              <td className="skill-right-td">
+                業務と普段の開発時に使用しています。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">PostgreSQL</td>
+              <td className="skill-middle-td">
+                友人との開発時で使用しています。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">SQLite</td>
+              <td className="skill-middle-td">
+                友人との開発時で使用しています。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">Realm</td>
+              <td className="skill-middle-td">
+                Androidアプリ開発時で使用しています。
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
@@ -75,31 +121,73 @@ const SkillPage = () => (
             <th colSpan="3">Tools</th>
           </thead>
           <tbody>
-            <tr><td className="skill-left-td">Webpack</td><td className="skill-right-td">個人開発時に使用しています。</td></tr>
-            <tr><td className="skill-left-td">GitHub</td><td className="skill-right-td">友人との開発時に使用しています。</td></tr>
-            <tr><td className="skill-left-td">GitLab</td><td className="skill-right-td">インターン先で使用しています。</td></tr>
-            <tr><td className="skill-left-td">Subversion</td><td className="skill-right-td">インターン先で使用しています。</td></tr>
-            <tr><td className="skill-left-td">Atom</td><td className="skill-right-td">普段使用しているテキストエディタです。</td></tr>
-            <tr><td className="skill-left-td">Vim</td><td className="skill-right-td">サーバー上のファイルを編集するときや、普段のファイル編集でもたまに使います。</td></tr>
+            <tr>
+              <td className="skill-left-td">node.js, Webpack等</td>
+              <td className="skill-right-td">
+                業務、個人開発で使用しています。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">GitHub</td>
+              <td className="skill-right-td">
+                業務、普段の開発時に使用しています。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">GitLab</td>
+              <td className="skill-right-td">業務でのみ使用しています。</td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">Subversion</td>
+              <td className="skill-right-td">業務でのみ使用していました。</td>
+            </tr>
           </tbody>
         </table>
       </div>
+
+      {/* <div className="skill-table-wrapper">
+        <table>
+          <thead>
+            <th colSpan="3">OS</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="skill-left-td">Windows</td>
+              <td className="skill-right-td">昔からずっと使っているOSです。</td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">Linux</td>
+              <td className="skill-right-td">
+                CentOS7を普段大学で使用しています。業務でcronを利用したりといった経験もあります。
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div> */}
 
       <div className="skill-table-wrapper">
         <table>
           <thead>
-            <th colSpan="3">Others</th>
+            <th colSpan="3">Server, infrastructure etc..</th>
           </thead>
           <tbody>
-            <tr><td className="skill-left-td">Apache</td><td className="skill-right-td">サーバーの勉強しようと、自宅のPCでCentOS7を入れてwebサーバーを作ってみたときに設定を触りました。</td></tr>
-            <tr><td className="skill-left-td">Windows</td><td className="skill-right-td">ずっと使っているOSです。</td></tr>
-            <tr><td className="skill-left-td">Linux</td><td className="skill-right-td">CentOS7を普段大学で使用しています。またインターンでcronを利用したバッヂの設定をしたことがあります。</td></tr>
+            <tr>
+              <td className="skill-left-td">Apache</td>
+              <td className="skill-right-td">
+               webアプリのデプロイで設定した経験があります。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">GCP(GCE)</td>
+              <td className="skill-right-td">
+                ラボの研究補助で、質問応答システムをwebアプリ化するときに利用しました。
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
-
     </div>
   </div>
-)
+);
 
-export default SkillPage
+export default SkillPage;
