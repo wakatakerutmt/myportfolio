@@ -17,10 +17,32 @@
   td{
     font-size: 1rem;
     text-align: left;
+    padding: 30px 15px;
+    box-sizing: border-box;
+  }
+}
+
+.table-wrapper-top {
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid rgba(200,200,200,1);
+  border-radius: 40px;
+
+  table {
+    margin: 30px auto;
+    display: inline-block;
+    table-layout: fixed;
+    word-wrap: break-word;
+  }
+  td{
+    font-size: 1rem;
+    text-align: left;
     padding: 10px 15px;
     box-sizing: border-box;
   }
 }
+
 
 .left-td {
   // width:90px;

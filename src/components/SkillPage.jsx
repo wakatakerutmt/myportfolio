@@ -12,24 +12,30 @@ const SkillPage = () => (
           <tbody>
             <tr>
               <td className="skill-left-td">C/C++</td>
-              <td className="skill-right-td">大学で使用していました。</td>
+              <td className="skill-right-td">大学と競技プログラミングで使用しています。</td>
             </tr>
             <tr>
               <td className="skill-left-td">Java</td>
               <td className="skill-right-td">
-                大学で使用していました。Androidアプリ作りでも使用しました。
+                大学で使用。Androidアプリ作りで使用しました。
+              </td>
+            </tr>
+            <tr>
+              <td className="skill-left-td">Go (Gin)</td>
+              <td className="skill-right-td">
+                web開発で使用しています。
               </td>
             </tr>
             <tr>
               <td className="skill-left-td">
                 PHP
                 <br />
-                (Laravel)
+                (Laravel /
                 <br />
-                (ZendFrameworkなど)
+                 ZendFrameworkなど)
               </td>
               <td className="skill-right-td">
-                業務で使用しています。個人開発でも使用しました。
+                業務と個人開発で使用しています。
               </td>
             </tr>
             <tr>
@@ -38,13 +44,13 @@ const SkillPage = () => (
                 <br />
                 (Ruby on Rails)
               </td>
-              <td className="skill-right-td">友人との開発で利用しました。</td>
+              <td className="skill-right-td">インターンの課題で使用。友人との開発で使用しています。</td>
             </tr>
             <tr>
               <td className="skill-left-td">
                 Python
                 <br />
-                (Django) (Flask)
+                (Django / Flask)
               </td>
               <td className="skill-right-td">
                 機械学習やデータ解析(研究,
@@ -54,17 +60,17 @@ const SkillPage = () => (
             <tr>
               <td className="skill-left-td">Kotlin</td>
               <td className="skill-right-td">
-                Androidアプリ開発で使用していました。
+                Androidアプリ開発で使用しました。
               </td>
             </tr>
             <tr>
               <td className="skill-left-td">
-                JavaScript
+                JavaScript / TypeScript
                 <br />
-                (jQuery,React.js,Vue.js)
+                (jQuery / React / Vue / Nuxt)
               </td>
               <td className="skill-right-td">
-                業務では素のJavaScriptとjQueryで、React、Vueは個人開発で少し使用しています。
+                業務と個人開発で使用しています。
               </td>
             </tr>
             <tr>
@@ -74,7 +80,7 @@ const SkillPage = () => (
                 (Sass)
               </td>
               <td className="skill-right-td">
-                常に使用しています。基本Sassを使っています。
+               web開発時に使用しています。
               </td>
             </tr>
           </tbody>
@@ -172,7 +178,7 @@ const SkillPage = () => (
           </thead>
           <tbody>
             <tr>
-              <td className="skill-left-td">Apache</td>
+              <td className="skill-left-td">Apache / Nginx</td>
               <td className="skill-right-td">
                webアプリのデプロイで設定した経験があります。
               </td>

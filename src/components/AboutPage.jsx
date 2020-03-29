@@ -5,7 +5,7 @@ const AboutPage = () => (
     <h1 className="about-title is-center">About</h1>
 
     <div className="about-wrapper">
-      <div className="table-wrapper">
+      <div className="table-wrapper-top">
         <table>
           <tbody>
             <tr>
@@ -15,9 +15,9 @@ const AboutPage = () => (
             <tr>
               <td className="left-td">University</td>
               <td className="right-td">
-                京都工芸繊維大学 情報工学4年(2019年現在)
+                京都工芸繊維大学 情報工学課程卒業
                 <br />
-                next 京都大学大学院情報学研究科知能情報学専攻
+                京都大学大学院情報学研究科知能情報学専攻 M1
               </td>
             </tr>
             <tr>
@@ -47,7 +47,7 @@ const AboutPage = () => (
             <tr>
               <td className="left-td">hobby</td>
               <td className="right-td">
-                映画,海外ドラマ,アニメ,バスケ,ゲーム,旅行
+                映画,海外ドラマ,アニメ,バスケ,ポーカー,ゲーム,旅行
               </td>
             </tr>
             {/* <tr>
@@ -64,7 +64,7 @@ const AboutPage = () => (
       <div className="table-wrapper">
         <table>
           <tbody>
-            <tr>
+            <tr className="my">
               <td className="left-td">
                 Donuts Co. Ltd.
                 <br />
@@ -91,12 +91,12 @@ const AboutPage = () => (
                 <br />
               </td>
             </tr>
-            <tr>
+            <tr className="my">
               <td className="left-td">
                 株式会社80&Company
                 <br />
                 <br />
-                2018/12/01 ~ now
+                2018/11/01 ~ now
               </td>
               <td className="right-td">
                 業務内容：
@@ -110,8 +110,29 @@ const AboutPage = () => (
                 <br />
                 技術：
                 <br />
-                PHP5.x,PHP7.x,Laravel,slimFramework3,独自軽量フレームワーク,
-                HTML5,CSS3,JavaScript(jQuery),MySQL,GitLab,Githubなど
+                PHP5.x,PHP7.x,Laravel,slimFramework3,<br/>
+                HTML5,CSS3,JavaScript(jQuery),MySQL, <br/>
+                GitLab,Github,Trello,Backlogなど
+              </td>
+            </tr>
+            <tr className="my">
+              <td className="left-td">
+                atma株式会社
+                <br />
+                <br />
+                2020/02/01 ~ now
+              </td>
+              <td className="right-td">
+                業務内容：
+                <br />
+                受託webアプリ開発フロントエンド
+                <br />
+                （SPA開発）
+                <br />
+                <br />
+                技術：
+                <br />
+                JavaScript(Vue.js/Nuxt.js), HTML, CSS, GitLab
               </td>
             </tr>
           </tbody>
