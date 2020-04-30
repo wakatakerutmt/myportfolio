@@ -44,16 +44,6 @@ const AboutPage = () => (
               <td className="left-td">Mail</td>
               <td className="right-td">desuapostle@gmail.com</td>
             </tr>
-            <tr>
-              <td className="left-td">hobby</td>
-              <td className="right-td">
-                映画,海外ドラマ,アニメ,バスケ,ポーカー,ゲーム,旅行
-              </td>
-            </tr>
-            {/* <tr>
-              <td className="left-td">Notes</td>
-              <td className="right-td">二年間浪人していました。</td>
-            </tr> */}
           </tbody>
         </table>
       </div>
@@ -101,18 +91,19 @@ const AboutPage = () => (
               <td className="right-td">
                 業務内容：
                 <br />
-                受託webアプリ開発業務全般(フルリモート)
+                受託webアプリ開発業務全般
                 <br />
                 （テーブル設計、ユーザ認証機能、検索機能、
                 <br />
                 いいね機能、決済処理機能、GoogleなどのAPI利用等々)
                 <br />
-                <br />
+                要件定義や仕様決定のための顧客へのヒアリング
+                <br /><br />
                 技術：
                 <br />
                 PHP5.x,PHP7.x,Laravel,slimFramework3,<br/>
                 HTML5,CSS3,JavaScript(jQuery),MySQL, <br/>
-                GitLab,Github,Trello,Backlogなど
+                Docker,GitLab,Github,Trello,Backlogなど
               </td>
             </tr>
             <tr className="my">
@@ -125,14 +116,17 @@ const AboutPage = () => (
               <td className="right-td">
                 業務内容：
                 <br />
-                受託webアプリ開発フロントエンド
+                受託webアプリ開発フロントエンド開発
                 <br />
                 （SPA開発）
                 <br />
+                兼、バックエンド開発
                 <br />
                 技術：
-                <br />
-                JavaScript(Vue.js/Nuxt.js), HTML, CSS, GitLab
+                <br /><br/>
+                JavaScript(Vue.js/Nuxt.js), <br/>
+                Python3.x, Django REST Framework API, <br/>
+                Docker,GitLab
               </td>
             </tr>
           </tbody>
