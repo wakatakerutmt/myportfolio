@@ -39,7 +39,7 @@ class WorksPage extends Component {
 
         <div className="card">
           <div className="left-component">
-            <img src="img/ai.png" className="img-nothing" />
+            <img src="img/atsumeta.jpg" className="img-nothing" />
           </div>
           <div className="right-component">
             <h2>Atsumeta</h2>
@@ -54,7 +54,7 @@ class WorksPage extends Component {
               <li>・Docker, Nginx, AWS(ECS,RDS)</li>
             </ul>
             <p>
-              備考:2020年夏のリリースに向けて取り組んでいる
+              備考:2020年夏のリリースに向けて取り組んでいる (著作権問題でモザイクをかけています。)
             </p>
           </div>
         </div>
@@ -85,7 +85,7 @@ class WorksPage extends Component {
 
         <div className="card">
           <div className="left-component">
-            <img src="img/ai.png" className="img-nothing" />
+            <img src="img/ai.jpg" className="img-nothing" />
           </div>
           <div className="right-component">
             <h2>bike or car画像判定 <a href="http://34.226.247.75/carbike/">リンク</a>
