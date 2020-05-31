@@ -36,6 +36,29 @@ class WorksPage extends Component {
           </div>
         </div>
 
+
+        <div className="card">
+          <div className="left-component">
+            <img src="img/ai.png" className="img-nothing" />
+          </div>
+          <div className="right-component">
+            <h2>Atsumeta</h2>
+            <p>
+              各企業の技術ブログを集めたサービス。単なるキュレーションサイトではなく、各企業の技術ブログのテキストから「利用言語」「最近hotなサービス」「技術領域」を解析して取得し、技術ブログからわかる企業情報ページを作ったり、企業側もアクションを取れて
+              採用活動に繋げられるような仕組みを考案。ハッカソンで発表した内容だが、現在実際にサービスとして稼働させることを目標として取り組んでいる。
+            </p>
+            <ul className="tool-list">
+              <li>使用言語・技術・ツールなど</li>
+              <li>・Go / Gin</li>
+              <li>・Vue.js / Nuxt.js</li>
+              <li>・Docker, Nginx, AWS(ECS,RDS)</li>
+            </ul>
+            <p>
+              備考:2020年夏のリリースに向けて取り組んでいる
+            </p>
+          </div>
+        </div>
+
         <div className="card">
           <div className="left-component">
             <img src="img/bosite01.jpg" className="img-bosite" />
@@ -56,6 +79,29 @@ class WorksPage extends Component {
             </ul>
             <p>
               備考：ハッカソンでの作品。３人のチーム開発のもので自分の担当はフロントエンド全般とバックエンドのログイン以外の機能ほとんど。一部の修正が出来次第、時期を見てリリースを予定しています。
+            </p>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="left-component">
+            <img src="img/ai.png" className="img-nothing" />
+          </div>
+          <div className="right-component">
+            <h2>bike or car画像判定 <a href="http://34.226.247.75/carbike/">リンク</a>
+            </h2>
+            <p>
+              サービスを意識して開発したのではなく、機械学習をアプリに組み込む勉強目的で作成。車かバイク化の判定を画像から行う。
+              ResNetの事前学習モデルを利用し、FlickrAPIで取得した車とバイクの画像でfine-tuningを行ったモデルを使用。
+            </p>
+            <ul className="tool-list">
+              <li>使用言語・技術・ツールなど</li>
+              <li>・Python (PyTorch)</li>
+              <li>・Django</li>
+              <li>・Gunicorn, Nginx, AWS(EC2)</li>
+            </ul>
+            <p>
+              備考:特になし
             </p>
           </div>
         </div>

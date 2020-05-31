@@ -35,7 +35,7 @@ const SkillPage = () => (
                  ZendFrameworkなど)
               </td>
               <td className="skill-right-td">
-                業務と個人開発で使用しています。
+                業務で使用しています。
               </td>
             </tr>
             <tr>
@@ -184,9 +184,9 @@ const SkillPage = () => (
               </td>
             </tr>
             <tr>
-              <td className="skill-left-td">GCP(GCE)</td>
+              <td className="skill-left-td">Docker / GCP(GCE) / AWS(EC2,ECS,RDS)</td>
               <td className="skill-right-td">
-                ラボの研究補助で、質問応答システムをwebアプリ化するときに利用しました。
+                業務や個人開発、研究などで利用しています。
               </td>
             </tr>
           </tbody>
